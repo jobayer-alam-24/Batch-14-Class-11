@@ -13,12 +13,12 @@ html{
 body{
     font-family: sans-serif, 'Courier New', Courier, monospace;
     line-height: 1.5;
+    margin-bottom: 1000px;
 }
-.container{
+.container-1{
     max-width: 500px;
     width: 80%;
     margin: 5% auto;
-    background-color: white;
     padding: 30px 60px;
     box-sizing: border-box;
     box-shadow: black 0px 3px 8px;
@@ -69,4 +69,102 @@ body{
 }
 .regis-authentic-form > button:hover{
     box-shadow: 2px -1px 37px 0px #0be9b5;
+}
+.common-hr{
+    border-bottom: none;    
+    border: 1px solid gold;
+}
+.container-2{
+    max-width: 800px;
+    width: 90%;
+    margin: 5% auto;
+    padding: 30px 60px;
+    box-sizing: border-box;
+    box-shadow: black 0px 3px 8px;
+    border-radius: 5px;
+    background: radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgb(9, 116, 92) 0%, rgb(7, 107, 40) 90% );
+    color: white;
+}
+.custom-hr{
+    border-bottom: none;
+    border: 1px solid #d7d8e1;
+}
+.header{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px 0 30px 0;
+    box-sizing: border-box;
+}
+.header-para{
+    font-size: 20px;
+    font-weight: 400;
+}
+.con-2-form{
+    padding-top: 30px; 
+}
+.con-2-form label{
+    font-size: 20px;
+    
+}
+.dv{
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+.con-2-form input, select{
+    padding: 0.625em;
+    border: none;
+    font-size: 15px;
+    margin-right: 7px;
+    border: 3px solid rgb(13, 223, 104);
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+.con-2-form input:focus,
+.con-2-form select:focus{
+    box-shadow: 2px -1px 37px 0px rgb(8, 230, 156);
+}
+.con-2-form select{
+    background-color: white;
+    padding-right: 20px;
+}
+.m-t{
+    margin-top: 30px;
+}
+.con-2-form input:focus{
+    outline: none;
+}
+.w-50{
+    width: 50%;
+}
+.head-name{
+    display: flex;
+}
+.m-b{
+    margin-bottom: 10px;
+}
+.flexible{
+    display: flex;
+    justify-content: space-between;
+}
+.w-100{
+    width: 100%;
+}
+.d-f{
+    display: flex;
+    justify-content: flex-end;
+}
+.last-btn{
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    background: radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgb(24, 216, 174) 0%, rgb(5, 235, 82) 90% );
+}
+.last-btn:hover{
+    box-shadow: 2px -1px 37px 0px rgb(5, 235, 82);
+}
+.cs-w{
+    width: 250px;
 }
