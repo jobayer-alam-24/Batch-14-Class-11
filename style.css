@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    background: linear-gradient(to left bottom, #34859e, #b9b71a) fixed;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    font-family: sans-serif, 'Courier New', Courier, monospace;
+    line-height: 1.5;
+}
+.container{
+    max-width: 500px;
+    width: 80%;
+    margin: 5% auto;
+    background-color: white;
+    padding: 30px 60px;
+    box-sizing: border-box;
+    box-shadow: black 0px 3px 8px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #185d83, #1b9478);
+    color: white;
+}
+
+.regis-authentic-form{
+    box-sizing: border-box;
+    display: grid;
+    grid-gap: 14px;
+}
+.form-head{
+    text-decoration: underline aqua;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 20px 0 30px 0;
+}
+.regis-authentic-form label{
+    font-size: 1rem;
+}
+.regis-authentic-form input{
+    width: 100%;
+    margin-top: 5px;
+    border: none;
+    border: 1px solid aqua;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 10px 15px;
+}
+.regis-authentic-form input:focus{
+    outline: none;
+    box-shadow: 2px -1px 37px 0px rgba(0,255,255,0.75);
+}
+.regis-authentic-form > button{
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;  
+    background: linear-gradient(to right, #0899e7, #0be9b5);  
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.regis-authentic-form > button:hover{
+    box-shadow: 2px -1px 37px 0px #0be9b5;
+}
