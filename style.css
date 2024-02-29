@@ -13,7 +13,6 @@ html{
 body{
     font-family: sans-serif, 'Courier New', Courier, monospace;
     line-height: 1.5;
-    margin-bottom: 1000px;
 }
 .container-1{
     max-width: 500px;
@@ -138,11 +137,17 @@ body{
 }
 .head-name{
     display: flex;
+    flex-wrap: wrap;
 }
 .m-b{
     margin-bottom: 10px;
 }
 .flexible{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.flexible-new{
     display: flex;
     justify-content: space-between;
 }
